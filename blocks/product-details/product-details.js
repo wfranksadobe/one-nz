@@ -187,7 +187,8 @@ export default async function decorate(block) {
           const modifiedImageFileName = imageFileName.replace(/_/g, '-');
 
           // Update the URL to the new format
-          image.url = `/images/products/${modifiedImageFileName}`;
+          //image.url = `/images/products/${modifiedImageFileName}`;
+          image.url = 'https://publish-p154716-e1630108.adobeaemcloud.com/content/dam/citisignal/' + `/images/products/${modifiedImageFileName}`;
         });
         return {
           ...data,

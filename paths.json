@@ -13,7 +13,7 @@
       "/content/dam/one-nz/images/products/:/images/products/"
     ],
     "includes": [
-      "/content/one-nz",
+      "/content/one-nz/",
       "/content/dam/one-nz/images/products/"
     ]
 }

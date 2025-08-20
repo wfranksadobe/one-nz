@@ -70,6 +70,10 @@ main .banner-container > div {
   background-color: #fff;
 }
 
+.block a:any-link.button {
+  color: transparent;
+}
+
 .block.banner.small p {
   margin: 1rem 0;
 }

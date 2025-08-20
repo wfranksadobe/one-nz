@@ -1,53 +1,276 @@
-<?xml version="1.0"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="600" width="1200">
-<defs>
-	<clipPath id="Canton">
-		<path d="M 0,0 L 600,0 L 600,300 L 0,300 z"/>
-	</clipPath>
-	<clipPath id="Diagonals">
-		<path d="M 0,0 L 300,150 L 0,150 z M 300,0 L 600,0 L 300,150 z M 300,150 L 600,150 L 600,300 z M 300,150 L 300,300 L 0,300 z"/>
-	</clipPath>
-	<g id="Pentagram">
-		<g id="Arm" transform="translate(0,-0.324925)">
-			<path d="M 0,0 L 0,0.5 L 1,0 z"/>
-			<path d="M 0,0 L 0,-0.5 L 1,0 z" transform="rotate(-36,1,0)"/>
-		</g>
-		<use xlink:href="#Arm" transform="scale(-1,1)"/>
-		<use xlink:href="#Arm" transform="rotate(72,0,0)"/>
-		<use xlink:href="#Arm" transform="rotate(-72,0,0)"/>
-		<use xlink:href="#Arm" transform="rotate(-72,0,0) scale(-1,1)"/>
-	</g>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1200 1200">
+  <!-- Generator: Adobe Illustrator 29.7.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 8)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
 
-<rect fill="#012169" x="0" y="0" width="1200" height="600"/>
+      .st1 {
+        clip-path: url(#clippath-1);
+      }
 
-<g id="Flag_of_the_United_Kingdom">
-	<path id="Saint_Andrews_Cross" stroke="#FFF" d="M 0,0 L 600,300 M 0,300 L 600,0" stroke-width="60" clip-path="url(#Canton)"/>
-	<path id="Saint_Patricks_Cross" stroke="#C8102E" d="M 0,0 L 600,300 M 0,300 L 600,0" stroke-width="40" clip-path="url(#Diagonals)"/>
-	<g id="Saint_Georges_Cross">
-		<path stroke="#FFF" d="M 300,0 L 300,300 M 0,150 L 600,150" stroke-width="100" clip-path="url(#Canton)"/>
-		<path stroke="#C8102E" d="M 300,0 L 300,300 M 0,150 L 600,150" stroke-width="60" clip-path="url(#Canton)"/>
-	</g>
-</g>
+      .st2 {
+        clip-path: url(#clippath-3);
+      }
 
-<g id="Southern_Cross">
-	<g id="Gamma_Crucis">
-		<use xlink:href="#Pentagram" fill="#FFF" transform="translate(900,120) scale(45.4)"/>
-		<use xlink:href="#Pentagram" fill="#C8102E" transform="translate(900,120) scale(30)"/>
-	</g>
-	<g transform="rotate(82,900,240)">
-		<g id="Delta_Crucis">
-			<use xlink:href="#Pentagram" fill="#FFF" transform="translate(900,120) rotate(-82) scale(40.4)"/>
-			<use xlink:href="#Pentagram" fill="#C8102E" transform="translate(900,120) rotate(-82) scale(25)"/>
-		</g>
-		<g id="Beta_Crucis">
-			<use xlink:href="#Pentagram" fill="#FFF" transform="translate(900,380) rotate(-82) scale(45.4)"/>
-			<use xlink:href="#Pentagram" fill="#C8102E" transform="translate(900,380) rotate(-82) scale(30)"/>
-		</g>
-	</g>
-	<g id="Alpha_Crucis">
-		<use xlink:href="#Pentagram" fill="#FFF" transform="translate(900,480) scale(50.4)"/>
-		<use xlink:href="#Pentagram" fill="#C8102E" transform="translate(900,480) scale(35)"/>
-	</g>
-</g>
+      .st3 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st4, .st5 {
+        stroke: #c8102e;
+      }
+
+      .st4, .st6 {
+        stroke-width: 60px;
+      }
+
+      .st5 {
+        stroke-width: 40px;
+      }
+
+      .st7 {
+        stroke-width: 100px;
+      }
+
+      .st7, .st6 {
+        stroke: #fff;
+      }
+
+      .st8 {
+        fill: #fff;
+      }
+
+      .st9 {
+        fill: #c8102e;
+      }
+
+      .st10 {
+        fill: #012169;
+      }
+
+      .st11 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" y="290.8" width="600" height="300"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="st0" d="M0,290.8l300,150H0v-150ZM300,290.8h300l-300,150v-150ZM300,440.8h300v150l-300-150ZM300,440.8v150H0l300-150Z"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st0" y="290.8" width="600" height="300"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st0" y="290.8" width="600" height="300"/>
+    </clipPath>
+  </defs>
+  <rect class="st10" y="290.8" width="1200" height="600"/>
+  <g id="Flag_of_the_United_Kingdom">
+    <g class="st11">
+      <path id="Saint_Andrews_Cross" class="st6" d="M0,290.8l600,300M0,590.8l600-300"/>
+    </g>
+    <g class="st1">
+      <path id="Saint_Patricks_Cross" class="st5" d="M0,290.8l600,300M0,590.8l600-300"/>
+    </g>
+    <g id="Saint_Georges_Cross">
+      <g class="st3">
+        <path class="st7" d="M300,290.8v300M0,440.8h600"/>
+      </g>
+      <g class="st2">
+        <path class="st4" d="M300,290.8v300M0,440.8h600"/>
+      </g>
+    </g>
+  </g>
+  <g id="Southern_Cross">
+    <g id="Gamma_Crucis">
+      <g id="Pentagram">
+        <g id="Arm">
+          <path class="st8" d="M900,396v22.7l45.4-22.7h-45.4Z"/>
+          <path class="st8" d="M908.7,422.7l-13.3-18.4,50.1-8.3-36.7,26.7Z"/>
+        </g>
+        <g id="Arm1" data-name="Arm">
+          <path class="st8" d="M900,396v22.7l-45.4-22.7h45.4Z"/>
+          <path class="st8" d="M891.3,422.7l13.3-18.4-50.1-8.3,36.7,26.7Z"/>
+        </g>
+        <g id="Arm2" data-name="Arm">
+          <path class="st8" d="M914,406.2l-21.6,7,35.6,36.2-14-43.2Z"/>
+          <path class="st8" d="M891.3,422.7l13.3-18.4,23.4,45.1-36.7-26.7Z"/>
+        </g>
+        <g id="Arm3" data-name="Arm">
+          <path class="st8" d="M886,406.2l21.6,7-7.6-50.2-14,43.2Z"/>
+          <path class="st8" d="M914,406.2l-21.6,7,7.6-50.2,14,43.2Z"/>
+        </g>
+        <g id="Arm4" data-name="Arm">
+          <path class="st8" d="M886,406.2l21.6,7-35.6,36.2,14-43.2Z"/>
+          <path class="st8" d="M908.7,422.7l-13.3-18.4-23.4,45.1,36.7-26.7Z"/>
+        </g>
+      </g>
+      <g id="Pentagram1" data-name="Pentagram">
+        <g id="Arm5" data-name="Arm">
+          <path class="st9" d="M900,401.1v15l30-15h-30Z"/>
+          <path class="st9" d="M905.7,418.7l-8.8-12.1,33.1-5.5-24.3,17.6Z"/>
+        </g>
+        <g id="Arm6" data-name="Arm">
+          <path class="st9" d="M900,401.1v15l-30-15h30Z"/>
+          <path class="st9" d="M894.3,418.7l8.8-12.1-33.1-5.5,24.3,17.6Z"/>
+        </g>
+        <g id="Arm7" data-name="Arm">
+          <path class="st9" d="M909.3,407.8l-14.3,4.6,23.5,23.9-9.3-28.5Z"/>
+          <path class="st9" d="M894.3,418.7l8.8-12.1,15.5,29.8-24.3-17.6Z"/>
+        </g>
+        <g id="Arm8" data-name="Arm">
+          <path class="st9" d="M890.7,407.8l14.3,4.6-5-33.2-9.3,28.5Z"/>
+          <path class="st9" d="M909.3,407.8l-14.3,4.6,5-33.2,9.3,28.5Z"/>
+        </g>
+        <g id="Arm9" data-name="Arm">
+          <path class="st9" d="M890.7,407.8l14.3,4.6-23.5,23.9,9.3-28.5Z"/>
+          <path class="st9" d="M905.7,418.7l-8.8-12.1-15.5,29.8,24.3-17.6Z"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g id="Delta_Crucis">
+        <g id="Pentagram2" data-name="Pentagram">
+          <g id="Arm10" data-name="Arm">
+            <path class="st8" d="M1018.8,501v20.2l40.4-20.2h-40.4Z"/>
+            <path class="st8" d="M1026.5,524.7l-11.9-16.3,44.6-7.4-32.7,23.7Z"/>
+          </g>
+          <g id="Arm11" data-name="Arm">
+            <path class="st8" d="M1018.8,501v20.2l-40.4-20.2h40.4Z"/>
+            <path class="st8" d="M1011.1,524.7l11.9-16.3-44.6-7.4,32.7,23.7Z"/>
+          </g>
+          <g id="Arm12" data-name="Arm">
+            <path class="st8" d="M1031.3,510l-19.2,6.2,31.7,32.2-12.5-38.4Z"/>
+            <path class="st8" d="M1011.1,524.7l11.9-16.3,20.8,40.1-32.7-23.7Z"/>
+          </g>
+          <g id="Arm13" data-name="Arm">
+            <path class="st8" d="M1006.3,510l19.2,6.2-6.7-44.7-12.5,38.4Z"/>
+            <path class="st8" d="M1031.3,510l-19.2,6.2,6.7-44.7,12.5,38.4Z"/>
+          </g>
+          <g id="Arm14" data-name="Arm">
+            <path class="st8" d="M1006.3,510l19.2,6.2-31.7,32.2,12.5-38.4Z"/>
+            <path class="st8" d="M1026.5,524.7l-11.9-16.3-20.8,40.1,32.7-23.7Z"/>
+          </g>
+        </g>
+        <g id="Pentagram3" data-name="Pentagram">
+          <g id="Arm15" data-name="Arm">
+            <path class="st9" d="M1018.8,506v12.5l25-12.5h-25Z"/>
+            <path class="st9" d="M1023.6,520.7l-7.3-10.1,27.6-4.6-20.2,14.7Z"/>
+          </g>
+          <g id="Arm16" data-name="Arm">
+            <path class="st9" d="M1018.8,506v12.5l-25-12.5h25Z"/>
+            <path class="st9" d="M1014.1,520.7l7.3-10.1-27.6-4.6,20.2,14.7Z"/>
+          </g>
+          <g id="Arm17" data-name="Arm">
+            <path class="st9" d="M1026.6,511.6l-11.9,3.9,19.6,19.9-7.7-23.8Z"/>
+            <path class="st9" d="M1014.1,520.7l7.3-10.1,12.9,24.8-20.2-14.7Z"/>
+          </g>
+          <g id="Arm18" data-name="Arm">
+            <path class="st9" d="M1011.1,511.6l11.9,3.9-4.2-27.6-7.7,23.8Z"/>
+            <path class="st9" d="M1026.6,511.6l-11.9,3.9,4.2-27.6,7.7,23.8Z"/>
+          </g>
+          <g id="Arm19" data-name="Arm">
+            <path class="st9" d="M1011.1,511.6l11.9,3.9-19.6,19.9,7.7-23.8Z"/>
+            <path class="st9" d="M1023.6,520.7l-7.3-10.1-12.9,24.8,20.2-14.7Z"/>
+          </g>
+        </g>
+      </g>
+      <g id="Beta_Crucis">
+        <g id="Pentagram4" data-name="Pentagram">
+          <g id="Arm20" data-name="Arm">
+            <path class="st8" d="M761.4,535.5v22.7l45.4-22.7h-45.4Z"/>
+            <path class="st8" d="M770,562.2l-13.3-18.4,50.1-8.3-36.7,26.7Z"/>
+          </g>
+          <g id="Arm21" data-name="Arm">
+            <path class="st8" d="M761.4,535.5v22.7l-45.4-22.7h45.4Z"/>
+            <path class="st8" d="M752.7,562.2l13.3-18.4-50.1-8.3,36.7,26.7Z"/>
+          </g>
+          <g id="Arm22" data-name="Arm">
+            <path class="st8" d="M775.4,545.7l-21.6,7,35.6,36.2-14-43.2Z"/>
+            <path class="st8" d="M752.7,562.2l13.3-18.4,23.4,45.1-36.7-26.7Z"/>
+          </g>
+          <g id="Arm23" data-name="Arm">
+            <path class="st8" d="M747.3,545.7l21.6,7-7.6-50.2-14,43.2Z"/>
+            <path class="st8" d="M775.4,545.7l-21.6,7,7.6-50.2,14,43.2Z"/>
+          </g>
+          <g id="Arm24" data-name="Arm">
+            <path class="st8" d="M747.3,545.7l21.6,7-35.6,36.2,14-43.2Z"/>
+            <path class="st8" d="M770,562.2l-13.3-18.4-23.4,45.1,36.7-26.7Z"/>
+          </g>
+        </g>
+        <g id="Pentagram5" data-name="Pentagram">
+          <g id="Arm25" data-name="Arm">
+            <path class="st9" d="M761.4,540.5v15l30-15h-30Z"/>
+            <path class="st9" d="M767.1,558.2l-8.8-12.1,33.1-5.5-24.3,17.6Z"/>
+          </g>
+          <g id="Arm26" data-name="Arm">
+            <path class="st9" d="M761.4,540.5v15l-30-15h30Z"/>
+            <path class="st9" d="M755.6,558.2l8.8-12.1-33.1-5.5,24.3,17.6Z"/>
+          </g>
+          <g id="Arm27" data-name="Arm">
+            <path class="st9" d="M770.6,547.3l-14.3,4.6,23.5,23.9-9.3-28.5Z"/>
+            <path class="st9" d="M755.6,558.2l8.8-12.1,15.5,29.8-24.3-17.6Z"/>
+          </g>
+          <g id="Arm28" data-name="Arm">
+            <path class="st9" d="M752.1,547.3l14.3,4.6-5-33.2-9.3,28.5Z"/>
+            <path class="st9" d="M770.6,547.3l-14.3,4.6,5-33.2,9.3,28.5Z"/>
+          </g>
+          <g id="Arm29" data-name="Arm">
+            <path class="st9" d="M752.1,547.3l14.3,4.6-23.5,23.9,9.3-28.5Z"/>
+            <path class="st9" d="M767.1,558.2l-8.8-12.1-15.5,29.8,24.3-17.6Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Alpha_Crucis">
+      <g id="Pentagram6" data-name="Pentagram">
+        <g id="Arm30" data-name="Arm">
+          <path class="st8" d="M900,754.4v25.2l50.4-25.2h-50.4Z"/>
+          <path class="st8" d="M909.6,784l-14.8-20.4,55.6-9.2-40.8,29.6Z"/>
+        </g>
+        <g id="Arm31" data-name="Arm">
+          <path class="st8" d="M900,754.4v25.2l-50.4-25.2h50.4Z"/>
+          <path class="st8" d="M890.4,784l14.8-20.4-55.6-9.2,40.8,29.6Z"/>
+        </g>
+        <g id="Arm32" data-name="Arm">
+          <path class="st8" d="M915.6,765.7l-24,7.8,39.5,40.1-15.6-47.9Z"/>
+          <path class="st8" d="M890.4,784l14.8-20.4,26,50-40.8-29.6Z"/>
+        </g>
+        <g id="Arm33" data-name="Arm">
+          <path class="st8" d="M884.4,765.7l24,7.8-8.4-55.7-15.6,47.9Z"/>
+          <path class="st8" d="M915.6,765.7l-24,7.8,8.4-55.7,15.6,47.9Z"/>
+        </g>
+        <g id="Arm34" data-name="Arm">
+          <path class="st8" d="M884.4,765.7l24,7.8-39.5,40.1,15.6-47.9Z"/>
+          <path class="st8" d="M909.6,784l-14.8-20.4-26,50,40.8-29.6Z"/>
+        </g>
+      </g>
+      <g id="Pentagram7" data-name="Pentagram">
+        <g id="Arm35" data-name="Arm">
+          <path class="st9" d="M900,759.4v17.5l35-17.5h-35Z"/>
+          <path class="st9" d="M906.7,780l-10.3-14.2,38.6-6.4-28.3,20.6Z"/>
+        </g>
+        <g id="Arm36" data-name="Arm">
+          <path class="st9" d="M900,759.4v17.5l-35-17.5h35Z"/>
+          <path class="st9" d="M893.3,780l10.3-14.2-38.6-6.4,28.3,20.6Z"/>
+        </g>
+        <g id="Arm37" data-name="Arm">
+          <path class="st9" d="M910.8,767.3l-16.6,5.4,27.5,27.9-10.8-33.3Z"/>
+          <path class="st9" d="M893.3,780l10.3-14.2,18,34.7-28.3-20.6Z"/>
+        </g>
+        <g id="Arm38" data-name="Arm">
+          <path class="st9" d="M889.2,767.3l16.6,5.4-5.8-38.7-10.8,33.3Z"/>
+          <path class="st9" d="M910.8,767.3l-16.6,5.4,5.8-38.7,10.8,33.3Z"/>
+        </g>
+        <g id="Arm39" data-name="Arm">
+          <path class="st9" d="M889.2,767.3l16.6,5.4-27.5,27.9,10.8-33.3Z"/>
+          <path class="st9" d="M906.7,780l-10.3-14.2-18,34.7,28.3-20.6Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

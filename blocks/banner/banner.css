@@ -129,9 +129,10 @@ main .banner-container > div {
   background-color: var(--color-brand-700);
   */
 .button-container a:hover {
-    color: #323232;
+  color: #323232;
   border-color: #FFFFFF;
   background-color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* Picture Styles */

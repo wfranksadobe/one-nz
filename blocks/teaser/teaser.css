@@ -1,9 +1,13 @@
 .teaser {
   display: flex;
-  background: #000;
+  background: #00A45F;
   align-items: stretch;
   max-height: 420px;
   border-radius: var(--border-radius);
+}
+
+.teaser p {
+  color: #FFFFFF;
 }
 
 .teaser.align-right {

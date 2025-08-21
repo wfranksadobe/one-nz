@@ -113,22 +113,14 @@ main .banner-container > div {
 }
 
 /* Button Container Styles */
-/* .block.banner .button-container a { */
-.button-container a {
+.block.banner .button-container a {
   margin: 0;
   font-size: 20px;
   letter-spacing: 1.6px;
   font-weight: 500;
 }
 
-
-  /*
 .block.banner .button-container a:hover {
-  color: #fff;
-  text-decoration: none;
-  background-color: var(--color-brand-700);
-  */
-.button-container a:hover {
   color: #323232;
   border-color: #FFFFFF;
   background-color: #FFFFFF;
